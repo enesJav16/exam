@@ -65,7 +65,7 @@ public class Main {
                             break;
                         } catch (InputMismatchException e) {
                             System.out.println("Try again.");
-
+                            scanner.nextLine();
                         }
                     }
                 }
