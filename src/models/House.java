@@ -208,13 +208,13 @@ public class House  {
 
     @Override
     public String toString() {
-        return "House{" +
-                "id=" + id +
-                ", address='" + address + '\'' +
-                ", room=" + room +
-                ", price=" + price +
-                ", houseType=" + houseType +
-                ", builtDate=" + builtDate +
-                '}';
+        return
+                "\nid: " + id +
+                "\naddress: " + address +
+                "\nroom: " + room +
+                "\nprice: " + price +
+                "\nhouseType: " + houseType +
+                "\nbuiltDate: " + builtDate+
+                "\n==========================";
     }
 }

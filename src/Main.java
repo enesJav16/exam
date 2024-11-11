@@ -29,10 +29,7 @@ public class Main {
         impl.createHouse(house4);
         impl.createHouse(house5);
 
-        System.out.println(Arrays.toString(impl.getHouseByHouseType(HouseType.COTTAGE)));
 
-//        impl.updateHouse(3,house5);
-        System.out.println(impl.deleteHouse(2));
 
 
 
@@ -43,7 +40,7 @@ public class Main {
                     3.Get house by id.
                     4.Update house.
                     5.Delete house.
-                    
+                    6.Get all.
                     """);
             int input = scanner1.nextInt();
 
